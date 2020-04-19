@@ -1,0 +1,409 @@
+body
+{
+  margin: 0;
+}
+
+.top-container
+{
+  background-color: #024249;
+  text-align: center;
+  padding: 12% 15%;
+  margin: 0;
+  position: relative;
+  z-index: -1;
+}
+
+.mid-container
+{
+  padding:0 15%;
+  position: relative;
+  bottom: 30vh;
+}
+
+.about
+{
+  border:1px solid grey;
+  border-radius: 10px;
+  padding: 1% 3%;
+  max-height: 200px;
+}
+
+#more
+{
+  display: none;
+}
+#myBtn
+{
+  color: blue;
+}
+
+.posts
+{
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 1% 3%;
+  max-height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+
+.image
+{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  bottom: 20vw;
+}
+
+.designation
+{
+  color: grey;
+  font-family: "DM Serif Display";
+  font-size: 2vw;
+}
+
+.about-para
+{
+  line-height: 2.2;
+  color: #000000;
+  font-family: "Montserrat";
+}
+
+ol, p
+{
+  font-family: "Montserrat";
+  line-height: 2.1;
+}
+
+h2
+{
+  font-family: "DM Serif Display";
+  font-size: 2vw;
+}
+
+img
+{
+  max-width: auto;
+  max-height: 15vw;
+}
+
+h1
+{
+  color: white;
+  font-family: "Sacramento",sans-serif;
+  font-size: 10vh;
+}
+
+h3
+{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.3vw;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+  .top-container
+  {
+    padding-bottom: 60vh;
+    padding-top: 0;
+  }
+  h1
+  {
+    font-size: 7vw;
+    margin-bottom: 16px;
+  }
+  h2
+  {
+    text-align: center;
+    margin-bottom: 6vh;
+  }
+  .designation
+  {
+    margin-top: 30px;
+  }
+  h3
+  {
+    font-size: 1.7vw;
+  }
+  img
+  {
+    max-width: auto;
+    max-height: 12vw;
+  }
+  .image
+  {
+    bottom: 22.5vw;
+  }
+  .about, .posts
+  {
+    max-height: 100vh;
+  }
+  .tips
+  {
+    margin-top: 6vh;
+  }
+  p, ol
+  {
+    font-size: 1vw;
+    line-height: 2;
+  }
+  ol
+  {
+    padding-left: 2.5vw;
+  }
+
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+
+  .top-container
+  {
+    padding-bottom: 80vh;
+    padding-top: 0;
+  }
+  h1
+  {
+    font-size: 8vw;
+  }
+  h2
+  {
+    text-align: center;
+    margin-bottom: 6vh;
+  }
+  h3
+  {
+    font-size: 1.7vw;
+  }
+  img
+  {
+    max-width: auto;
+    max-height: 22vw;
+  }
+  .image
+  {
+    bottom: 34vw;
+  }
+  .mid-container
+  {
+    margin-top: 0;
+  }
+  .about, .posts
+  {
+    max-height: 80vh;
+  }
+  .tips
+  {
+    margin-top: 0;
+  }
+  p, ol
+  {
+    font-size: 1.5vw;
+  }
+  ol
+  {
+    padding-left: 2.5vw;
+  }
+
+}
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+
+  .top-container
+  {
+    padding-bottom: 70vh;
+    padding-top: 0;
+  }
+  h1
+  {
+    font-size: 8vw;
+  }
+  h2
+  {
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  h3
+  {
+    font-size: 1.7vw;
+  }
+  img
+  {
+    max-width: auto;
+    max-height: 22vw;
+  }
+  .image
+  {
+    bottom: 34vw;
+  }
+  .mid-container
+  {
+    margin-top: 5vw;
+  }
+  .about, .posts
+  {
+    max-height: 65vh;
+  }
+  .tips
+  {
+    margin-top: 0;
+  }
+  p, ol
+  {
+    font-size: 1.5vw;
+  }
+  ol
+  {
+    padding-left: 2.5vw;
+  }
+
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+
+  .top-container
+  {
+    padding-bottom: 55vh;
+    padding-top: 0;
+  }
+  h1
+  {
+    font-size: 8vw;
+  }
+  h2
+  {
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+  h3
+  {
+    font-size: 1.7vw;
+  }
+  img
+  {
+    max-width: auto;
+    max-height: 22vw;
+  }
+  .image
+  {
+    bottom: 34vw;
+  }
+  .mid-container
+  {
+    margin-top: 5vw;
+  }
+  .about, .posts
+  {
+    max-height: 50vh;
+  }
+  .tips
+  {
+    margin-top: 0;
+  }
+  p, ol
+  {
+    font-size: 1.5vw;
+  }
+  ol
+  {
+    padding-left: 2.5vw;
+  }
+
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .top-container
+  {
+    padding-bottom:40vh;
+    padding-top: 0;
+  }
+  h1
+  {
+    font-size: 8vw;
+  }
+  h2
+  {
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  h3
+  {
+    font-size: 1.7vw;
+  }
+  img
+  {
+    max-width: auto;
+    max-height: 20vw;
+  }
+  .image
+  {
+    bottom: 33vw;
+  }
+  .mid-container
+  {
+    margin-top: 15vw;
+  }
+  .about, .posts
+  {
+    max-height: 35vh;
+  }
+  .tips
+  {
+    margin-top: 0;
+  }
+  p, ol
+  {
+    font-size: 1.5vw;
+  }
+  ol
+  {
+    padding-left: 2.5vw;;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+
+    .top-container
+    {
+      padding-bottom: 25vh;
+      padding-top: 0;
+    }
+    img
+    {
+      max-width: auto;
+      max-height: 20vw;
+    }
+    h1
+    {
+      font-size: 8vw;
+    }
+    h2
+    {
+      text-align: center;
+      margin-bottom: 2vh;
+    }
+    h3
+    {
+      font-size: 1.7vw;
+    }
+    .image
+    {
+      bottom: 33vw;
+    }
+    .mid-container
+    {
+      margin-top: 20vh;
+    }
+    .about
+    {
+      max-height: 20vh;
+    }
+    .posts
+    {
+      max-height: 20vh;
+    }
+    p, ol
+    {
+      font-size: 1.5vw;
+    }
+    ol
+    {
+      padding-left: 2.5vw;;
+    }
+}
